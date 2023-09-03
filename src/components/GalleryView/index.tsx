@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
-import { createGlobalStyle } from "styled-components";
 import { Keyboard, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import styles from "./styles.module.scss";
 import { Slide } from "./components/Slide";
 import { HandleIndex } from "./components/HandleIndex";
 import { X } from "lucide-react";
@@ -47,7 +45,7 @@ export function GalleryView({ close, active, show, images }) {
                 >
                     <HandleIndex active={active} show={show} />
                     {images.map((item, index) => (
-                        <SwiperSlide key={index} id={styles.swiper_slide}>
+                        <SwiperSlide key={index}>
                             <Slide image={item} />
                         </SwiperSlide>
                     ))}
