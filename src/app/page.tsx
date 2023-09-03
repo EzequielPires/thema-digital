@@ -98,36 +98,36 @@ export default function Home() {
           <h2 className="text-3xl lg:text-5xl font-semibold mb-6 lg:mb-16 max-w-4xl">Parceiros que fazem o nosso trabalho acontecer</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4">
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-r border-b">
-              <Hexagon size={64} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">Brand name</span>
+              <Image src={'/brands/logo_01.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
+              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">CAN SA</span>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 lg:border-r border-b">
-              <Hexagon size={64} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">Brand name</span>
+              <Image src={'/brands/logo_02.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
+              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">CICLO</span>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-r border-b">
-              <Hexagon size={64} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">Brand name</span>
+              <Image src={'/brands/logo_03.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
+              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">PULPI</span>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-b">
-              <Hexagon size={64} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">Brand name</span>
+              <Image src={'/brands/logo_04.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
+              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">ANHANGUERA</span>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-b lg:border-b-0 border-r">
-              <Hexagon size={64} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">Brand name</span>
+              <Image src={'/brands/logo_05.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
+              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">VIO</span>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-b lg:border-b-0 lg:border-r">
-              <Hexagon size={64} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">Brand name</span>
+              <Image src={'/brands/logo_06.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
+              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">CEPESQ</span>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-r">
-              <Hexagon size={64} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">Brand name</span>
+              <Image src={'/brands/logo_07.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
+              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">REBORN</span>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10">
-              <Hexagon size={64} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">Brand name</span>
+              <Image src={'/brands/logo_06.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
+              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">CEPESQ</span>
             </div>
           </div>
         </div>
