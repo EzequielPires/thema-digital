@@ -2,7 +2,7 @@ import { Layout, Box, PenTool, Star, MonitorSmartphone, Presentation, Brain, Hex
 
 export function Services() {
     return (
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid lg:grid-cols-4 gap-4">
             <div className="bg-zinc-800 p-4 hover:bg-zinc-950 transition-colors duration-300 ease-in-out">
                 <Hexagon size={40}/>
                 <h4 className="text-white text-xl font-semibold my-6 mb-2">Construção de Marcas</h4>

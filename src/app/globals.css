@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif !important;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -41,7 +50,7 @@ img {
   transform: translateY(-50%);
   z-index: 1;
   cursor: pointer;
-  background: #00000023 !important;
+  background: #ffffff0e !important;
   backdrop-filter: blur(24px);
   width: 48px !important;
   height: 48px !important;
@@ -64,7 +73,7 @@ img {
   transform: translateY(-50%);
   z-index: 9999;
   cursor: pointer;
-  background: #00000023 !important;
+  background: #ffffff0e !important;
   backdrop-filter: blur(24px);
   width: 48px !important;
   height: 48px !important;
@@ -77,4 +86,120 @@ img {
 .swiper-pagination-bullet-active {
   opacity: 1;
   background: #fff !important;
+}
+
+.jarallax {
+  height: 2000px;
+  overflow: hidden;
+}
+
+.jarallax-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/escritorio_02.jpg');
+  background-size: cover;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.text-with-stroke {
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+  -webkit-text-stroke-color: #FFFFFF;
+  -webkit-text-fill-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border: 2px solid #111;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+.content-notice p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: justify;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.content-notice h2 {
+  font-size: 1.5rem !important;
+}
+
+.content-notice h3 {
+  font-size: initial !important;
+  font-weight: initial !important;
+}
+
+.content-notice {
+  position: relative;
+}
+
+.content-notice img {
+  max-width: 100% !important;
+}
+
+.content-notice li {
+  list-style: initial !important;
+  margin-bottom: .5rem;
+}
+
+.content-notice ol li {
+  list-style: decimal !important;
+}
+
+.content-notice ul {
+  padding-left: 1rem;
+}
+
+.content-notice ol {
+  padding-left: 2rem;
+}
+
+.content-notice iframe {
+  max-width: 540px;
+}
+
+#comments, #notices {
+  overflow: visible;
+}
+
+#comments .swiper-pagination-bullet, #notices .swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+#comments .swiper-pagination, #notices .swiper-pagination {
+  bottom: -24px !important;
+} 
+
+@media (max-width: 720px) {
+  #comments .slick-next, #comments .slick-prev {
+    display: none !important;
+  }
+  #notices .slick-next, #notices .slick-prev {
+    display: none !important;
+  }
 }
