@@ -25,7 +25,7 @@ export function GalleryView({ close, active, show, images }) {
     }, []);
 
     return (
-        <div className={`fixed top-0 left-0 bottom-0 right-0 w-full h-screen z-[9999] bg-black bg-opacity-70`} style={{ visibility: !show ? 'hidden' : 'visible' }}>
+        <div className={`fixed top-0 left-0 bottom-0 right-0 w-full h-screen z-[9999] bg-black/90`} style={{ visibility: !show ? 'hidden' : 'visible' }}>
             <div className={'w-full max-w-full mx-auto'}>
                 <button className={`absolute top-4 right-4 z-[9999] `} onClick={close}><X /></button>
                 <Swiper

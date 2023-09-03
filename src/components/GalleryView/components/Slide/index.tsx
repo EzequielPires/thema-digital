@@ -10,7 +10,7 @@ export function Slide({ image }) {
 
     return (
         <div ref={ref} className="flex overflow-hidden justify-center max-w-[1080px]">
-            <img src={image} className="h-[95vh]"/>
+            <img src={image} className="w-full"/>
         </div>
     )
 }
