@@ -1,5 +1,4 @@
 import { useRef, useEffect, useState } from "react";
-import { Container, Image } from "./styles";
 
 export function Slide({ image }) {
     const ref = useRef(null);
@@ -10,8 +9,8 @@ export function Slide({ image }) {
     }, []);
 
     return (
-        <Container ref={ref}>
-            <Image src={image} />
-        </Container>
+        <div ref={ref} className="flex overflow-hidden justify-center max-w-[1080px]">
+            <img src={image} className="h-[95vh]"/>
+        </div>
     )
 }
