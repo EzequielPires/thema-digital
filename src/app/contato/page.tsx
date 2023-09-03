@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Page() {
     return (
         <main>
-            <section className="pt-36 pb-20 w-full max-w-7xl mx-auto">
-                <h1 className="text-7xl font-semibold">Contato</h1>
+            <section className="pt-36 pb-20 w-full max-w-7xl px-4 xl:px-0 mx-auto">
+                <h1 className="text-5xl lg:text-7xl font-semibold">Contato</h1>
                 <ul className="flex gap-4 mt-6">
                     <li>
                         <Link href={'/'}>Home</Link>
@@ -17,8 +17,8 @@ export default function Page() {
                 </ul>
             </section>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.39563613123!2d-46.924960160457054!3d-23.681434588352147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1693766903575!5m2!1spt-BR!2sbr" width="100%" height="300" style={{ border: 0 }} loading="lazy"></iframe>
-            <section className="py-20 bg-zinc-900 flex">
-                <div className="w-full max-w-7xl mx-auto flex gap-8">
+            <section className="py-10 xl:py-20 bg-zinc-900 flex">
+                <div className="w-full max-w-7xl mx-auto flex flex-col xl:flex-row px-4 xl:px-0 gap-8">
                     <div className="flex-1 flex flex-col items-start gap-4">
                         <h4 className="text-3xl font-semibold mb-2">Enviar um e-mail</h4>
                         <input type="text" className="h-12 w-full bg-zinc-900 border border-zinc-500 outline-none focus:border-white px-3 py-3" placeholder="Nome" />

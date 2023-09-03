@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function Page() {
     return (
         <main>
-            <section className="pt-36 pb-20 w-full max-w-7xl mx-auto">
-                <h1 className="text-7xl font-semibold">Blog</h1>
+            <section className="pt-36 pb-20 w-full max-w-7xl px-4 xl:px-0 mx-auto">
+                <h1 className="text-5xl xl:text-7xl font-semibold">Blog</h1>
                 <ul className="flex gap-4 mt-6">
                     <li>
                         <Link href={'/'}>Home</Link>
@@ -18,14 +18,14 @@ export default function Page() {
                 </ul>
             </section>
             <section className="py-10 bg-zinc-900">
-                <div className="w-full max-w-7xl mx-auto grid grid-cols-12 gap-8">
-                    <div className="col-span-8 flex flex-col gap-6">
+                <div className="w-full max-w-7xl mx-auto grid grid-cols-12 px-4 xl:px-0 gap-8">
+                    <div className="col-span-12 xl:col-span-8 flex flex-col gap-6">
                         <CardNoticeVertical />
                         <CardNoticeVertical />
                         <CardNoticeVertical />
                         <CardNoticeVertical />
                     </div>
-                    <div className="col-span-4">
+                    <div className="hidden xl:flex col-span-4">
                         <div className="w-full h-[300px] bg-zinc-600 mb-6 flex items-center justify-center">
                             <Link href={'/'}><Image src={'/logos/logo_branco.svg'} width={100} height={30} alt="Logo" /></Link>
                         </div>
