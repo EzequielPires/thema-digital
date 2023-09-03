@@ -195,6 +195,36 @@ img {
   bottom: -24px !important;
 } 
 
+.swiper-gallery .swiper-button-prev,
+.swiper-gallery .swiper-button-next {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #8334d2;
+}
+.swiper-gallery .swiper-button-prev::after,
+.swiper-gallery .swiper-button-next::after {
+  font-size: 16px;
+  color: #fff;
+}
+
+.backdrop-blur-24 {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.swiper-gallery-mobile .swiper-slide {
+  height: 35vh !important;
+  width: 100% !important;
+}
+
+.swiper-gallery-mobile .swiper-pagination-fraction {
+  right: 8px !important;
+  bottom: 8px !important;
+  z-index: 10 !important;
+}
+
 @media (max-width: 720px) {
   #comments .slick-next, #comments .slick-prev {
     display: none !important;

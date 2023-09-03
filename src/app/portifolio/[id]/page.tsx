@@ -1,6 +1,7 @@
 import { SwiperProjects } from "@/components/swiper_projects";
 import Image from "next/image";
 import Link from "next/link";
+import { Gallery } from "./gallery";
 
 export default function Page({ params }: { params: { id: string } }) {
     return (
@@ -31,64 +32,7 @@ export default function Page({ params }: { params: { id: string } }) {
                 <p>O projeto de redesign de marca para "Café Aromático" foi uma oportunidade emocionante de revitalizar uma marca icônica que tem uma longa história de produzir café de alta qualidade. Nossa missão era trazer um novo visual moderno e cativante à marca, mantendo ao mesmo tempo a autenticidade e a tradição que a tornaram tão amada por seus clientes fiéis. O desafio principal era modernizar a marca sem alienar seus clientes de longa data. Queríamos criar algo que atraísse uma nova geração de consumidores enquanto ainda era reconhecido e amado pelos antigos. Além disso, a marca precisava comunicar a qualidade e o sabor excepcionais do café.</p>
             </section>
             
-            <section className="w-full max-w-7xl mx-auto mb-20 px-4 xl:px-0">
-                <div className="grid grid-cols-2 xl:grid-cols-3 gap-4">
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/01.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/03.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/04.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/05.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/06.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/07.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/08.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/09.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/10.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/11.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/12.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/13.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/14.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/15.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/16.jpg'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/17.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/18.png'} alt="" fill sizes="100%" />
-                    </div>
-                    <div className="h-[100px] lg:h-[264px] relative overflow-hidden after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
-                        <Image src={'/projetos/vio/19.png'} alt="" fill sizes="100%" />
-                    </div>
-                </div>
-            </section>
+            <Gallery />
             
             <div className="h-fit lg:h-screen bg-zinc-900 py-20 flex flex-col justify-center">
                 <div className="w-full max-w-7xl mx-auto px-4 lg:px-0">
