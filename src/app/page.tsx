@@ -30,8 +30,8 @@ export default function Home() {
             </div>
           </div>
           <div className="flex-1 flex flex-col">
-            <span className="text-sm font-light text-white/90 block mb-4 uppercase">Quem somos</span>
-            <h2 className="text-3xl font-semibold mb-4">Transformamos ideias em negócios lucrativos no mundo digital.</h2>
+            <span className="text-sm font-light text-white/90 block mb-2 uppercase">Quem somos</span>
+            <h1 className="text-8xl font-semibold mb-4">Transformamos ideias em negócios.</h1>
             <span className="text-sm font-light text-white/90 leading-7">Tema Digital - Somos a Agência de Marketing Digital formada por uma equipe de profissionais com ampla bagagem prática e anos no mercado de trabalho, transformando ideias de empreendedores visionários em negócios lucrativos através do fortalecimento da marca e do posicionamento virtual.</span>
             <Link href={'/'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors uppercase">Solicite um orçamento</Link>
           </div>
@@ -49,7 +49,7 @@ export default function Home() {
       <div className="bg-zinc-900 py-20 flex flex-col justify-center">
         <div className="w-full max-w-7xl mx-auto px-4 lg:px-0">
           <span className="uppercase block mb-2">Conheça a gente melhor</span>
-          <h2 className="text-3xl lg:text-5xl font-semibold mb-6 max-w-4xl">Nós te ajudamos a criar estratégias e designs para a sua marca.</h2>
+          <h2 className="text-3xl lg:text-5xl font-semibold mb-6 max-w-4xl">Nossos serviços.</h2>
           <Services />
         </div>
       </div>
@@ -65,8 +65,8 @@ export default function Home() {
               <Image src={'/images/escritorio_01.jpg'} alt="" sizes="100%" fill />
             </div>
             <div className="flex-1 max-w-xl">
-              <span className="text-sm font-light text-white/90 block mb-4">Tema Digital</span>
-              <h2 className="text-3xl lg:text-5xl font-semibold my-4 max-w-4xl">Sonhar. Inovar. Implementar.</h2>
+              <span className="text-sm font-light text-white/90 block mb-2 uppercase">Tema Digital</span>
+              <h2 className="text-3xl lg:text-5xl font-semibold mb-4 max-w-4xl">Sonhar. Inovar. Implementar.</h2>
               <p className="text-sm font-light text-white/90 leading-7">Nossa agência criativa está há mais de 13 anos se destacando no mercado goiano. Cultivamos ideias inteligentes para a sua empresa. Seguindo os padrões do setor, construímos um portfólio impressionante.</p>
               <Link href={'/'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors">NOSSOS PROJETOS</Link>
             </div>
@@ -86,8 +86,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-fit bg-zinc-900">
-        <div className="w-full max-w-7xl mx-auto flex items-center">
+      <div className="h-fit bg-zinc-900 py-20 pb-10">
+        <div className="w-full max-w-7xl mx-auto flex flex-col">
+          <span className="uppercase block mb-2">Explore nossas Postagens</span>
+          <h2 className="text-3xl lg:text-5xl font-semibold mb-6 lg:mb-16 max-w-4xl">Leia, aprenda e inspire-se.</h2>
           <Notices />
         </div>
       </div>
@@ -138,7 +140,7 @@ export default function Home() {
           <div className="flex-1 flex flex-col items-center">
             <span className="text-sm font-light text-white/90 block mb-4 uppercase">Vamos conversar</span>
             <h2 className="text-4xl lg:text-7xl text-center font-bold mb-4 stroke-slate-500 stroke-2"><span className="text-with-stroke text-zinc-900">nos conte sobre</span> o seu próximo projeto<span className="text-with-stroke text-zinc-900">.</span></h2>
-            <Link href={'/'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors uppercase">Entrar em contato</Link>
+            <Link href={'/contato'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors uppercase">Entrar em contato</Link>
           </div>
         </div>
       </div>

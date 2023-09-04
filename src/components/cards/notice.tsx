@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function CardNotice() {
     return (
-        <div className="flex flex-wrap items-center h-full py-10 px-3 lg:px-20 gap-10">
+        <div className="flex flex-wrap items-center h-full px-3 pb-10 lg:px-20 gap-10">
             <div className="min-w-[300px] flex-1 flex flex-col items-end">
                 <div className="h-[328px] lg:h-[496px] w-full relative overflow-hidden">
                     <Image src={'/images/escritorio_02.jpg'} alt="" sizes="100%" fill />

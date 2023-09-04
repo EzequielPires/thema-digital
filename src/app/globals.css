@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +8,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 :root {
@@ -131,6 +131,10 @@ img {
   background: #fff;
 }
 
+.text-8xl, .lg\:text-8xl {
+  line-height: 110% !important;
+}
+
 .content-notice p {
   font-size: 1rem;
   font-weight: 400;
@@ -239,6 +243,7 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 
 @media (max-width: 720px) {
   #comments .slick-next,
