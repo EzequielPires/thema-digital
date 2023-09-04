@@ -25,7 +25,7 @@ export default function Page() {
                         <CardNoticeVertical />
                         <CardNoticeVertical />
                     </div>
-                    <div className="hidden xl:flex col-span-4">
+                    <div className="hidden xl:flex flex-col col-span-4">
                         <div className="w-full h-[300px] bg-zinc-600 mb-6 flex items-center justify-center">
                             <Link href={'/'}><Image src={'/logos/logo_branco.svg'} width={100} height={30} alt="Logo" /></Link>
                         </div>

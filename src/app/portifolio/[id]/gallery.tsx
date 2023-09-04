@@ -40,7 +40,7 @@ export function Gallery() {
 
     return (
         <>
-            <GalleryView active={active} close={() => setShowGallery(false)} images={images} show={showGallery} />
+            {showGallery && <GalleryView active={active} close={() => setShowGallery(false)} images={images} show={showGallery} />}
             <section className="w-full max-w-7xl mx-auto mb-20 px-4 xl:px-0">
                 <div className="grid grid-cols-2 xl:grid-cols-3 gap-4">
                     {images.map((item, index) => (

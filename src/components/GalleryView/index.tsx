@@ -2,8 +2,6 @@ import { useState, useEffect } from "react";
 import { Keyboard, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Slide } from "./components/Slide";
-import { HandleIndex } from "./components/HandleIndex";
 import { X } from "lucide-react";
 import { SwiperButtons } from "../swiper_buttons";
 
@@ -42,11 +40,13 @@ export function GalleryView({ close, active, show, images }) {
                         { !swiper.isBeginning && !swiper.isEnd && setState('progress') }
                     }}
                     navigation
+                    initialSlide={active}
                 >
-                    <HandleIndex active={active} show={show} />
-                    {images.map((item, index) => (
+                    {images.map((image, index) => (
                         <SwiperSlide key={index}>
-                            <Slide image={item} />
+                            <div className="flex overflow-hidden justify-center max-w-[1080px]">
+                                <img src={image} className="w-full" />
+                            </div>
                         </SwiperSlide>
                     ))}
                     <SwiperButtons />
