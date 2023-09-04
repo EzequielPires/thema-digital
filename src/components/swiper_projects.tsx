@@ -51,31 +51,31 @@ function Desktop() {
                 <div className="w-full h-[540px]">
                     <div className="w-full h-[540px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_01.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
                 <div className="w-full h-[540px]">
                     <div className="w-full h-[540px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_02.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
                 <div className="w-full h-[540px]">
                     <div className="w-full h-[540px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_03.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
                 <div className="w-full h-[540px]">
                     <div className="w-full h-[540px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_04.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
                 <div className="w-full h-[540px]">
                     <div className="w-full h-[540px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_05.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
             </Slider>
@@ -113,31 +113,31 @@ function Mobile() {
                 <div className="w-full h-[300px]">
                     <div className="w-full h-[300px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_01.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
                 <div className="w-full h-[300px]">
                     <div className="w-full h-[300px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_02.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
                 <div className="w-full h-[300px]">
                     <div className="w-full h-[300px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_03.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
                 <div className="w-full h-[300px]">
                     <div className="w-full h-[300px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_04.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
                 <div className="w-full h-[300px]">
                     <div className="w-full h-[300px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_05.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium">Ver projeto</Link>
                     </div>
                 </div>
             </Slider>

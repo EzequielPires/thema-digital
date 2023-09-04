@@ -24,25 +24,25 @@ export function BannerHome() {
                 <SwiperSlide>
                     <div className="w-full h-full relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50  flex items-center justify-center">
                         <Image src={'/projetos/vio/01.png'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium flex items-center gap-2 text-white/50 hover:text-white transition-colors"><MoveRight />Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium flex items-center gap-2 text-white/50 hover:text-white transition-colors"><MoveRight />Ver projeto</Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="w-full h-full relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50  flex items-center justify-center">
                         <Image src={'/images/image_04.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium flex items-center gap-2 text-white/50 hover:text-white transition-colors"><MoveRight />Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium flex items-center gap-2 text-white/50 hover:text-white transition-colors"><MoveRight />Ver projeto</Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="w-full h-full relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
                         <Image src={'/images/image_02.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium flex items-center gap-2 text-white/50 hover:text-white transition-colors"><MoveRight />Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium flex items-center gap-2 text-white/50 hover:text-white transition-colors"><MoveRight />Ver projeto</Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="w-full h-full relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50  flex items-center justify-center">
                         <Image src={'/images/image_03.jpg'} alt="Image" fill sizes="100%" />
-                        <Link href={'/portifolio/projeto-01'} className="absolute z-50 text-sm font-medium flex items-center gap-2 text-white/50 hover:text-white transition-colors"><MoveRight />Ver projeto</Link>
+                        <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium flex items-center gap-2 text-white/50 hover:text-white transition-colors"><MoveRight />Ver projeto</Link>
                     </div>
                 </SwiperSlide>
                 <SwiperButtons />

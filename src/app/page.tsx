@@ -68,7 +68,7 @@ export default function Home() {
               <span className="text-sm font-light text-white/90 block mb-2 uppercase">Tema Digital</span>
               <h2 className="text-3xl lg:text-5xl font-semibold mb-4 max-w-4xl">Sonhar. Inovar. Implementar.</h2>
               <p className="text-sm font-light text-white/90 leading-7">Nossa agência criativa está há mais de 13 anos se destacando no mercado goiano. Cultivamos ideias inteligentes para a sua empresa. Seguindo os padrões do setor, construímos um portfólio impressionante.</p>
-              <Link href={'/'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors">NOSSOS PROJETOS</Link>
+              <Link href={'/portfolio'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors">NOSSOS PROJETOS</Link>
             </div>
           </div>
         </div>
@@ -88,8 +88,8 @@ export default function Home() {
 
       <div className="h-fit bg-zinc-900 py-20 pb-10">
         <div className="w-full max-w-7xl mx-auto flex flex-col">
-          <span className="uppercase block mb-2">Explore nossas Postagens</span>
-          <h2 className="text-3xl lg:text-5xl font-semibold mb-6 lg:mb-16 max-w-4xl">Leia, aprenda e inspire-se.</h2>
+          <span className="uppercase block mb-2">Leia, aprenda e inspire-se.</span>
+          <h2 className="text-3xl lg:text-5xl font-semibold mb-6 lg:mb-16 max-w-4xl">Já leu nosso Blog?</h2>
           <Notices />
         </div>
       </div>
@@ -101,35 +101,35 @@ export default function Home() {
           <div className="grid grid-cols-2 lg:grid-cols-4">
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-r border-b">
               <Image src={'/brands/logo_01.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">CAN SA</span>
+              <Link href={'/'} className="w-0 group-hover:w-fit overflow-hidden transition-all font-medium">CAN SA</Link>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 lg:border-r border-b">
               <Image src={'/brands/logo_02.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">CICLO</span>
+              <Link href={'/'} className="w-0 group-hover:w-fit overflow-hidden transition-all font-medium">CICLO</Link>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-r border-b">
               <Image src={'/brands/logo_03.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">PULPI</span>
+              <Link href={'/'} className="w-0 group-hover:w-fit overflow-hidden transition-all font-medium">PULPI</Link>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-b">
               <Image src={'/brands/logo_04.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">ANHANGUERA</span>
+              <Link href={'/'} className="w-0 group-hover:w-fit overflow-hidden transition-all font-medium">ANHANGUERA</Link>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-b lg:border-b-0 border-r">
               <Image src={'/brands/logo_05.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">VIO</span>
+              <Link href={'/'} className="w-0 group-hover:w-fit overflow-hidden transition-all font-medium">VIO</Link>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-b lg:border-b-0 lg:border-r">
               <Image src={'/brands/logo_06.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">CEPESQ</span>
+              <Link href={'/'} className="w-0 group-hover:w-fit overflow-hidden transition-all font-medium">CEPESQ</Link>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-r">
               <Image src={'/brands/logo_07.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">REBORN</span>
+              <Link href={'/'} className="w-0 group-hover:w-fit overflow-hidden transition-all font-medium">REBORN</Link>
             </div>
             <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10">
               <Image src={'/brands/logo_06.svg'} alt="" width={100} height={40} className="group-hover:w-[0] transition-all absolute" />
-              <span className="w-0 group-hover:w-fit overflow-hidden transition-all">CEPESQ</span>
+              <Link href={'/'} className="w-0 group-hover:w-fit overflow-hidden transition-all font-medium">CEPESQ</Link>
             </div>
           </div>
         </div>
