@@ -7,15 +7,21 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 
-export function SwiperProjects() {
-    
+export function Projects() {
+
     return (
-        <div>
-            <div className="hidden lg:block">
-                <Desktop />
+        <div className="h-fit bg-zinc-950 pt-20 flex flex-col justify-center">
+            <div className="w-full max-w-7xl mx-auto px-4 lg:px-0">
+                <span className="uppercase block mb-2">Conheça nossos trabalhos</span>
+                <h2 className="text-3xl lg:text-5xl font-semibold mb-6">Nossos trabalhos criativos</h2>
             </div>
-            <div className="block lg:hidden">
-                <Mobile />
+            <div>
+                <div className="hidden lg:block">
+                    <Desktop />
+                </div>
+                <div className="block lg:hidden">
+                    <Mobile />
+                </div>
             </div>
         </div>
     )
@@ -106,7 +112,7 @@ function Mobile() {
             </button>
         ),
     };
-    
+
     return (
         <div className="h-[300px] projects overflow-hidden">
             <Slider {...settings}>

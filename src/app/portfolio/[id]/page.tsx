@@ -1,4 +1,4 @@
-import { SwiperProjects } from "@/components/swiper_projects";
+import { SwiperProjects } from "@/components/projects";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery } from "./gallery";
