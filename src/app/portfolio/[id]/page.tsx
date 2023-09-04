@@ -1,7 +1,9 @@
-import { SwiperProjects } from "@/components/projects";
+import { Projects } from "@/components/projects";
 import Image from "next/image";
 import Link from "next/link";
 import { Gallery } from "./gallery";
+import { Contact } from "@/components/contact";
+import { Footer } from "@/components/footer";
 
 export default function Page({ params }: { params: { id: string } }) {
     return (
@@ -34,30 +36,11 @@ export default function Page({ params }: { params: { id: string } }) {
             
             <Gallery />
             
-            <div className="h-fit lg:h-screen bg-zinc-900 py-20 flex flex-col justify-center">
-                <div className="w-full max-w-7xl mx-auto px-4 lg:px-0">
-                    <span className="uppercase block mb-2">OUTROS PROJETOS</span>
-                    <h2 className="text-3xl lg:text-5xl font-semibold mb-6">Nossos trabalhos criativos</h2>
-                </div>
-                <SwiperProjects />
-            </div>
+            <Projects />
 
-            <div className="h-[50vh] lg:h-[80vh] bg-zinc-900">
-                <div className="w-full max-w-7xl mx-auto px-4 lg:px-0 flex items-center h-full py-10 gap-10">
-                    <div className="flex-1 flex flex-col items-center">
-                        <span className="text-sm font-light text-white/90 block mb-4 uppercase">Vamos conversar</span>
-                        <h2 className="text-4xl lg:text-7xl text-center font-bold mb-4 stroke-slate-500 stroke-2"><span className="text-with-stroke text-zinc-900">nos conte sobre</span> o seu próximo projeto<span className="text-with-stroke text-zinc-900">.</span></h2>
-                        <Link href={'/'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors uppercase">Entrar em contato</Link>
-                    </div>
-                </div>
-            </div>
+            <Contact />
 
-            <div className="py-4 bg-zinc-950">
-                <div className="w-full max-w-7xl mx-auto flex flex-wrap h-full items-center justify-center lg:justify-between gap-4">
-                    <span className="text-sm">© 2023, Tema Digital - Todos os direitos reservados</span>
-                    <Link href={'https://www.linkedin.com/in/ezequiel-pires-e-silva-1aab75190/'} target="_blank" className="text-sm">Desenvolvido por <strong>Ezequiel Pires</strong></Link>
-                </div>
-            </div>
+            <Footer />
         </main>
     )
 }
