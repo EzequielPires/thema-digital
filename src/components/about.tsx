@@ -21,7 +21,7 @@ export function About() {
           </div>
           <div className="flex-1 flex flex-col">
             <span className="text-sm font-light text-white/90 block mb-2 uppercase">Quem somos</span>
-            <h1 className="text-8xl font-semibold mb-4">Transformamos ideias em negócios.</h1>
+            <h1 className="text-3xl lg:text-8xl font-semibold mb-4">Transformamos ideias em negócios.</h1>
             <span className="text-sm font-light text-white/90 leading-7">Tema Digital - Somos a Agência de Marketing Digital formada por uma equipe de profissionais com ampla bagagem prática e anos no mercado de trabalho, transformando ideias de empreendedores visionários em negócios lucrativos através do fortalecimento da marca e do posicionamento virtual.</span>
             <Link href={'/'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors uppercase">Solicite um orçamento</Link>
           </div>
