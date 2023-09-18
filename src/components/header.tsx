@@ -108,31 +108,31 @@ export function HeaderSecondary() {
         <header className={`bg-zinc-700 ${isTop ? 'lg:bg-transparent' : 'lg:bg-black/20 lg:backdrop-blur-2xl'} fixed top-0 left-0 w-full z-[999]`}>
             <div className="w-full max-w-7xl mx-auto px-3 lg:px-0 h-20 flex items-center justify-between">
                 <Link href={'/'}><Image src={'/logos/logo_branco.svg'} width={100} height={30} alt="Logo" /></Link>
-                <button className="flex" onClick={() => setShow(true)}><Menu size={32} /></button>
+                <button className="flex" onClick={() => setShow(true)} ><Menu size={32} /></button>
                 {show &&
                     <div className="absolute top-0 left-0 h-screen w-screen bg-zinc-900 px-4 py-4">
                         <div className="w-full max-w-7xl mx-auto flex flex-col h-full">
                             <div className="flex items-center justify-between">
-                                <Link href={'/'}><Image src={'/logos/logo_branco.svg'} width={100} height={30} alt="Logo" /></Link>
+                            <Link href={'/'}><Image src={'/logos/logo_branco.svg'} width={100} height={30} alt="Logo" /></Link>
                                 <button onClick={() => setShow(false)}>
                                     <X size={48} />
                                 </button>
                             </div>
                             <ul className="flex justify-center flex-col gap-4 flex-1">
                                 <li>
-                                    <Link onClick={() => setShow(false)} href={'/'} className={`text-5xl ${pathname === '/' ? 'text-white font-semibold' : 'text-white/70'} hover:text-white transition-colors`}>Início</Link>
+                                    <Link onClick={() => setShow(false)} href={'/'} className={`text-5xl link-aside ${pathname === '/' ? 'text-white' : 'text-white/70'} hover:text-white transition-colors`}>Início</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={() => setShow(false)} href={'/sobre'} className={`text-5xl ${pathname === '/sobre' ? 'text-white font-semibold' : 'text-white/70'} hover:text-white transition-colors`}>Sobre</Link>
+                                    <Link onClick={() => setShow(false)} href={'/sobre'} className={`text-5xl link-aside ${pathname === '/sobre' ? 'text-white' : 'text-white/70'} hover:text-white transition-colors`}>Sobre</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={() => setShow(false)} href={'/portfolio'} className={`text-5xl ${pathname === '/portfolio' ? 'text-white font-semibold' : 'text-white/70'} hover:text-white transition-colors`}>Projetos</Link>
+                                    <Link onClick={() => setShow(false)} href={'/portfolio'} className={`text-5xl link-aside ${pathname === '/portfolio' ? 'text-white' : 'text-white/70'} hover:text-white transition-colors`}>Projetos</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={() => setShow(false)} href={'/contato'} className={`text-5xl ${pathname === '/contato' ? 'text-white font-semibold' : 'text-white/70'} hover:text-white transition-colors`}>Contato</Link>
+                                    <Link onClick={() => setShow(false)} href={'/contato'} className={`text-5xl link-aside ${pathname === '/contato' ? 'text-white' : 'text-white/70'} hover:text-white transition-colors`}>Contato</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={() => setShow(false)} href={'/blog'} className={`text-5xl ${pathname === '/blog' ? 'text-white font-semibold' : 'text-white/70'} hover:text-white transition-colors`}>Blog</Link>
+                                    <Link onClick={() => setShow(false)} href={'/blog'} className={`text-5xl link-aside ${pathname === '/blog' ? 'text-white' : 'text-white/70'} hover:text-white transition-colors`}>Blog</Link>
                                 </li>
                             </ul>
                             <ul className="flex gap-6 mb-4">

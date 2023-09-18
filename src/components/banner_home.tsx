@@ -19,8 +19,8 @@ export function BannerHome() {
     }
 
     return (
-        <div className="mt-16 lg:mt-0 h-[300px] lg:h-screen relative flex items-center justify-center">
-            <Swiper className="h-full w-full" modules={[Autoplay, Pagination]} autoplay>
+        <div className="h-screen relative flex items-center justify-center">
+            <Swiper className="h-full w-full swiper-banner-home" modules={[Autoplay, Pagination]} autoplay>
                 <SwiperSlide>
                     <div className="w-full h-full relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50  flex items-center justify-center">
                         <Image src={'/projetos/vio/01.png'} alt="Image" fill sizes="100%" />
