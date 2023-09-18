@@ -17,10 +17,6 @@
   margin: 0;
   font-family: 'Poppins', sans-serif !important;
 }
-body {
-  background-color: #09090b !important;
-  background: #09090b !important;
-}
 
 .link-aside {
   font-family: 'Beatrice', sans-serif !important;
@@ -51,7 +47,8 @@ body {
 
 body {
   color: #fff;
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background-color: #09090b !important;
+  background: #09090b !important;
 }
 
 img {
