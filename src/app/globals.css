@@ -17,9 +17,9 @@
   margin: 0;
   font-family: 'Poppins', sans-serif !important;
 }
-* {
-  background-color: #09090b;
-  background: #09090b;
+body {
+  background-color: #09090b !important;
+  background: #09090b !important;
 }
 
 .link-aside {
