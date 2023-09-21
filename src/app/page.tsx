@@ -25,9 +25,9 @@ export default function Home() {
 
       <BannerVideo />
 
-      <Comments />
+      {/* <Comments /> */}
 
-      <Notices />
+      {/* <Notices /> */}
 
       <Clients />
 

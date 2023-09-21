@@ -8,7 +8,7 @@ export function Services() {
             <div className="bg-zinc-900 py-20 flex flex-col justify-center">
                 <div className="w-full max-w-7xl mx-auto px-4 lg:px-0">
                     <span className="uppercase block mb-2">Conheça a gente melhor</span>
-                    <h2 className="text-3xl lg:text-5xl font-semibold mb-6 max-w-4xl">Nossos serviços.</h2>
+                    <h2 className="text-3xl lg:text-5xl title mb-6 max-w-4xl">Nossos serviços.</h2>
                     <div className="grid lg:grid-cols-4 gap-4">
                         <div className="bg-zinc-800 p-4 hover:bg-zinc-950 transition-colors duration-300 ease-in-out">
                             <Layout size={40} />
@@ -65,7 +65,7 @@ export function Services() {
                         </div>
                         <div className="flex-1 max-w-xl">
                             <span className="text-sm font-light text-white/90 block mb-2 uppercase">Tema Digital</span>
-                            <h2 className="text-3xl lg:text-5xl font-semibold mb-4 max-w-4xl">Sonhar. Inovar. Implementar.</h2>
+                            <h2 className="text-3xl lg:text-5xl title mb-4 max-w-4xl">Sonhar. Inovar. Implementar.</h2>
                             <p className="text-sm font-light text-white/90 leading-7">Nossa agência criativa está há mais de 13 anos se destacando no mercado goiano. Cultivamos ideias inteligentes para a sua empresa. Seguindo os padrões do setor, construímos um portfólio impressionante.</p>
                             <Link href={'/portfolio'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors">NOSSOS PROJETOS</Link>
                         </div>

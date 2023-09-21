@@ -23,6 +23,11 @@
   font-weight: bold;
 }
 
+.title {
+  font-family: 'Beatrice', sans-serif !important;
+  font-weight: bold;
+}
+
 @media (max-width: 720px) {
   .swiper-banner-home img {
     height: unset !important;
