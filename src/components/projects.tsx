@@ -10,7 +10,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 export function Projects() {
 
     return (
-        <div className="h-fit bg-zinc-950 pt-20 flex flex-col justify-center">
+        <div className="h-fit bg-background pt-20 flex flex-col justify-center">
             <div className="w-full max-w-7xl mx-auto px-4 lg:px-0">
                 <span className="uppercase block mb-2">Conheça nossos trabalhos</span>
                 <h2 className="text-3xl lg:text-5xl title mb-6">Nossos trabalhos criativos</h2>
@@ -52,7 +52,7 @@ function Desktop() {
     };
 
     return (
-        <div className="h-[540px] projects overflow-hidden">
+        <div className="h-[540px] projects overflow-hidden bg-background-dark">
             <Slider {...settings}>
                 <div className="w-full h-[540px]">
                     <div className="w-full h-[540px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">

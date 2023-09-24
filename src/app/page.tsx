@@ -11,11 +11,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { About } from "@/components/about";
 import { Footer } from "@/components/footer";
+import { BannerHomeSecondary } from "@/components/banner_home_secondary";
 
 export default function Home() {
   return (
     <main className="">
-      <BannerHome />
+      {/* <BannerHome /> */}
+      <BannerHomeSecondary />
 
       <About />
 

@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'background': '#1d1e23',
+        'background-dark': '#191a1e',
+        'card': '#303139',
+        'primary': '#0031FF',
+        'secondary': '#00B2FF',
+        'button': '#485175',
+      },
       fontSize: {
         '8xl': '64px'
       },
