@@ -53,6 +53,7 @@ function Desktop() {
 
     return (
         <div className="h-[540px] projects overflow-hidden bg-background-dark">
+            {/* @ts-ignore */}
             <Slider {...settings}>
                 <div className="w-full h-[540px]">
                     <div className="w-full h-[540px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
@@ -115,6 +116,7 @@ function Mobile() {
 
     return (
         <div className="h-[300px] projects overflow-hidden">
+            {/* @ts-ignore */}
             <Slider {...settings}>
                 <div className="w-full h-[300px]">
                     <div className="w-full h-[300px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50 flex items-center justify-center">
