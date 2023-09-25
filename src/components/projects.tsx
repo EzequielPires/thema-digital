@@ -12,7 +12,7 @@ export function Projects() {
     return (
         <div className="h-fit bg-background pt-20 flex flex-col justify-center">
             <div className="w-full max-w-7xl mx-auto px-4 lg:px-0">
-                <span className="uppercase block mb-2">Conheça nossos trabalhos</span>
+                <span className="uppercase block mb-2">../Conheça nossos trabalhos</span>
                 <h2 className="text-3xl lg:text-5xl title mb-6">Nossos trabalhos criativos</h2>
             </div>
             <div>

@@ -37,7 +37,7 @@ export function Header() {
     }, [show]);
 
     return (
-        <header className={`bg-button ${isTop ? 'lg:bg-transparent' : 'lg:bg-black/20 lg:backdrop-blur-2xl'} fixed top-0 left-0 w-full z-[999]`}>
+        <header className={`bg-button ${isTop ? 'lg:bg-transparent' : 'lg:bg-black/40 lg:backdrop-blur-2xl'} fixed top-0 left-0 w-full z-[999]`}>
             <div className="w-full max-w-7xl mx-auto px-3 lg:px-0 h-20 flex items-center justify-between">
                 <div className="flex items-center gap-6">
                     <button className="flex max-lg:hidden" onClick={() => setShow(true)}><Menu size={32} /></button>

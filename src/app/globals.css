@@ -270,6 +270,30 @@ img {
   align-items: center;
 }
 
+.floating-element {
+  animation: float 3s infinite ease-in-out;
+}
+
+.floating-element-inverse {
+  animation: float-inverse 3s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -10px);
+  }
+}
+@keyframes float-inverse {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+}
 
 @media (max-width: 720px) {
   #comments .slick-next,

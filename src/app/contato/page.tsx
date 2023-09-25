@@ -4,7 +4,7 @@ import {FaWhatsapp} from "react-icons/fa";
 
 export default function Page() {
     return (
-        <main>
+        <main className="bg-background">
             <section className="pt-36 pb-20 w-full max-w-7xl px-4 xl:px-0 mx-auto">
                 <h1 className="text-5xl lg:text-7xl font-semibold">Contato</h1>
                 <ul className="flex gap-4 mt-6">
@@ -17,13 +17,13 @@ export default function Page() {
                     </li>
                 </ul>
             </section>
-            <section className="py-10 xl:py-20 bg-zinc-900 flex">
+            <section className="py-10 xl:py-20 bg-background-dark flex">
                 <div className="w-full max-w-7xl mx-auto flex flex-col xl:flex-row px-4 xl:px-0 gap-8">
                     <div className="flex-1 flex flex-col items-start gap-4">
                         <h4 className="text-3xl font-semibold mb-2">Enviar um e-mail</h4>
-                        <input type="text" className="h-12 w-full bg-zinc-900 border border-zinc-500 outline-none focus:border-white px-3 py-3" placeholder="Nome" />
-                        <input type="text" className="h-12 w-full bg-zinc-900 border border-zinc-500 outline-none focus:border-white px-3 py-3" placeholder="Telefone" />
-                        <input type="text" className="h-12 w-full bg-zinc-900 border border-zinc-500 outline-none focus:border-white px-3 py-3" placeholder="Email" />
+                        <input type="text" className="h-12 w-full bg-background-dark border border-zinc-500 outline-none focus:border-white px-3 py-3" placeholder="Nome" />
+                        <input type="text" className="h-12 w-full bg-background-dark border border-zinc-500 outline-none focus:border-white px-3 py-3" placeholder="Telefone" />
+                        <input type="text" className="h-12 w-full bg-background-dark border border-zinc-500 outline-none focus:border-white px-3 py-3" placeholder="Email" />
                         <textarea className="h-32 w-full bg-zinc-900 border border-zinc-500 outline-none focus:border-white px-3 py-3" placeholder="Mensagem" />
                         <button className="h-12 px-20 bg-zinc-800 hover:bg-zinc-700 transition-colors font-semibold">Enviar</button>
                     </div>

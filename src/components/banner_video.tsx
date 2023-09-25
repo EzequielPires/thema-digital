@@ -8,8 +8,8 @@ export function BannerVideo() {
     const [show, setShow] = useState(false);
     return (
         <div className="overflow-hidden relative">
-            <div className="h-[300px] lg:h-[400px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/70 flex items-center justify-center">
-                <Image src={'/images/escritorio_02.jpg'} alt="" fill sizes="100%" />
+            <div className="h-[300px] lg:h-[500px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/70 flex items-center justify-center">
+                <Image src={'/images/escritorio_03.jpg'} alt="" fill sizes="100%" />
                 <div className="absolute top-0 left-0 right-0 bottom-0 z-20 flex items-center justify-center">
                     <button onClick={() => setShow(true)}><PlayCircle size={64} /></button>
                 </div>

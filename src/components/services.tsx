@@ -7,7 +7,7 @@ export function Services() {
         <>
             <div className="bg-background py-20 flex flex-col justify-center">
                 <div className="w-full max-w-7xl mx-auto px-4 lg:px-0">
-                    <span className="uppercase block mb-2" data-aos="fade-up" data-aos-delay="100">Conheça a gente melhor</span>
+                    <span className="uppercase block mb-2" data-aos="fade-up" data-aos-delay="100">../Conheça a gente melhor</span>
                     <h2 className="text-3xl lg:text-5xl title mb-6 max-w-4xl" data-aos="fade-up" data-aos-delay="150">Nossos serviços.</h2>
                     <div className="grid lg:grid-cols-4 gap-4">
                         <div className="bg-card hover:bg-card/80 p-4 transition-colors duration-300 ease-in-out" data-aos="fade-up" data-aos-delay="200">
@@ -64,7 +64,7 @@ export function Services() {
                             <Image src={'/images/escritorio_01.jpg'} alt="" sizes="100%" fill data-aos="fade-right" data-duration="3000" />
                         </div>
                         <div className="flex-1 max-w-xl">
-                            <span className="text-sm font-light text-white/90 block mb-2 uppercase" data-aos="fade-up" data-aos-delay="50">Tema Digital</span>
+                            <span className="text-sm font-light text-white/90 block mb-2 uppercase" data-aos="fade-up" data-aos-delay="50">../Tema Digital</span>
                             <h2 className="text-3xl lg:text-5xl title mb-4 max-w-4xl" data-aos="fade-up" data-aos-delay="100">Sonhar. Inovar. Implementar.</h2>
                             <p className="text-sm font-light text-white/90 leading-7" data-aos="fade-up" data-aos-delay="150">Nossa agência criativa está há mais de 13 anos se destacando no mercado goiano. Cultivamos ideias inteligentes para a sua empresa. Seguindo os padrões do setor, construímos um portfólio impressionante.</p>
                             <Link href={'/portfolio'} className="w-fit h-12 px-8 flex items-center justify-center border text-sm font-medium mt-8 border-white/30 hover:border-white transition-colors" data-aos="fade-up" data-aos-delay="200">NOSSOS PROJETOS</Link>
