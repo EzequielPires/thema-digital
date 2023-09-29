@@ -14,7 +14,7 @@ export default function Page() {
                     </li>
                     <span>/</span>
                     <li>
-                        <Link href={'/portifolio'}>Portfólio</Link>
+                        <Link href={'/portfolio'}>Portfólio</Link>
                     </li>
                 </ul>
             </section>
@@ -49,31 +49,31 @@ export default function Page() {
                     <div className="mt-20 grid lg:grid-cols-3 gap-4">
                         <div className="group h-[264px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
                             <Image src={'/images/image_01.jpg'} alt="" fill sizes="100%" />
-                            <Link href={'/portifolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
+                            <Link href={'/portfolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
                                 <span className="w-0 group-hover:w-fit transition-all text-xl font-semibold">Nome do Projeto</span>
                             </Link>
                         </div>
                         <div className="group h-[264px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
                             <Image src={'/images/image_02.jpg'} alt="" fill sizes="100%" />
-                            <Link href={'/portifolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
+                            <Link href={'/portfolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
                                 <span className="text-xl font-semibold text-ellipsis">Nome do Projeto</span>
                             </Link>
                         </div>
                         <div className="group h-[264px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
                             <Image src={'/images/image_03.jpg'} alt="" fill sizes="100%" />
-                            <Link href={'/portifolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
+                            <Link href={'/portfolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
                                 <span className="text-xl font-semibold text-ellipsis">Nome do Projeto</span>
                             </Link>
                         </div>
                         <div className="group h-[264px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
                             <Image src={'/images/image_04.jpg'} alt="" fill sizes="100%" />
-                            <Link href={'/portifolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
+                            <Link href={'/portfolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
                                 <span className="text-xl font-semibold text-ellipsis">Nome do Projeto</span>
                             </Link>
                         </div>
                         <div className="group h-[264px] relative after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-black/50">
                             <Image src={'/images/image_05.jpg'} alt="" fill sizes="100%" />
-                            <Link href={'/portifolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
+                            <Link href={'/portfolio/projeto-01'} className="hidden group-hover:flex absolute z-40 top-0 left-0 right-0 bottom-0 items-center justify-center">
                                 <span className="text-xl font-semibold text-ellipsis">Nome do Projeto</span>
                             </Link>
                         </div>

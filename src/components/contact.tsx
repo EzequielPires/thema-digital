@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Contact() {
   return (
-    <div className="lg:h-[80vh] bg-background">
+    <section id="contact" className="lg:h-[80vh] bg-background">
       <div className="w-full max-w-7xl mx-auto px-4 lg:px-0 flex items-center h-full py-10 gap-10">
         <div className="flex-1 flex flex-col items-center">
           <span className="text-sm font-light text-white/90 block mb-4 uppercase">../Vamos conversar</span>
@@ -18,6 +18,6 @@ export function Contact() {
 
         </div>
       </div>
-    </div>
+    </section>
   )
 }
