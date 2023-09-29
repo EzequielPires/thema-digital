@@ -62,7 +62,7 @@ export function Header() {
                 </ul>
                 <button className="flex lg:hidden" onClick={() => setShow(true)}><Menu size={32} /></button>
                 {show &&
-                    <div className="absolute top-0 left-0 h-screen w-screen bg-zinc-900 px-4 py-4">
+                    <div className="absolute top-0 left-0 h-screen w-screen bg-zinc-900 px-3 py-4">
                         <div className="w-full max-w-7xl mx-auto flex flex-col h-full">
                             <div className="flex items-center justify-between">
                                 <Link href={'/'}><Image src={'/logos/logo_branco.svg'} width={100} height={30} alt="Logo" /></Link>
