@@ -10,42 +10,42 @@ export function Clients() {
         <div className="grid grid-cols-2 lg:grid-cols-4">
           <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-r border-b">
             <Link href={'/'} className="flex">
-              <Image src={'/brands/logo_01.svg'} alt="" width={100} height={40} className="transition-all" data-aos="zoom-in" data-aos-delay="50" />
+              <Image src={'/brands/logo_01.svg'} alt="" width={100} height={40} className="transition-all" />
             </Link>
           </div>
           <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 lg:border-r border-b">
             <Link href={'/'} className="flex">
-              <Image src={'/brands/logo_02.svg'} alt="" width={100} height={40} className="transition-all" data-aos="zoom-in" data-aos-delay="100" />
+              <Image src={'/brands/logo_02.svg'} alt="" width={100} height={40} className="transition-all"  />
             </Link>
           </div>
           <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-r border-b">
             <Link href={'/'} className="flex">
-              <Image src={'/brands/logo_03.svg'} alt="" width={100} height={40} className="transition-all" data-aos="zoom-in" data-aos-delay="150" />
+              <Image src={'/brands/logo_03.svg'} alt="" width={100} height={40} className="transition-all"  />
             </Link>
           </div>
           <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-b">
             <Link href={'/'} className="flex">
-              <Image src={'/brands/logo_04.svg'} alt="" width={100} height={40} className="transition-all" data-aos="zoom-in" data-aos-delay="200" />
+              <Image src={'/brands/logo_04.svg'} alt="" width={100} height={40} className="transition-all"  />
             </Link>
           </div>
           <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-b lg:border-b-0 border-r" >
             <Link href={'/'} className="flex">
-              <Image src={'/brands/logo_05.svg'} alt="" width={100} height={40} className="transition-all" data-aos="zoom-in" data-aos-delay="50" />
+              <Image src={'/brands/logo_05.svg'} alt="" width={100} height={40} className="transition-all" />
             </Link>
           </div>
           <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-b lg:border-b-0 lg:border-r" >
             <Link href={'/'} className="flex">
-              <Image src={'/brands/logo_06.svg'} alt="" width={100} height={40} className="transition-all" data-aos="zoom-in" data-aos-delay="100" />
+              <Image src={'/brands/logo_06.svg'} alt="" width={100} height={40} className="transition-all"  />
             </Link>
           </div>
           <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10 border-r">
             <Link href={'/'} className="flex">
-              <Image src={'/brands/logo_07.svg'} alt="" width={100} height={40} className="transition-all" data-aos="zoom-in" data-aos-delay="150" />
+              <Image src={'/brands/logo_07.svg'} alt="" width={100} height={40} className="transition-all"  />
             </Link>
           </div>
           <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10">
             <Link href={'/'} className="flex">
-              <Image src={'/brands/logo_06.svg'} alt="" width={100} height={40} className="transition-all" data-aos="zoom-in" data-aos-delay="200" />
+              <Image src={'/brands/logo_06.svg'} alt="" width={100} height={40} className="transition-all"  />
             </Link>
           </div>
         </div>

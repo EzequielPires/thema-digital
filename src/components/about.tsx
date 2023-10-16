@@ -25,7 +25,7 @@ export function About() {
             <Image src="/projetos/vio/12.png" alt="" fill />
           </div>
         </div>
-        <div className="flex-1 flex flex-col" data-aos="fade-up" data-aos-delay="100">
+        <div className="flex-1 flex flex-col">
           <span className="text-sm font-light text-white/90 block mb-2 uppercase">../Quem somos</span>
           <h1 className="text-3xl lg:text-5xl title mb-4">Moldando o Futuro Digital dos Empreendedores.</h1>
           <span className="text-sm font-light text-white/90 leading-7">Somos a Agência de Marketing Digital formada por uma equipe de profissionais com ampla bagagem prática e anos no mercado de trabalho, transformando ideias de empreendedores visionários em negócios lucrativos através do fortalecimento da marca e do posicionamento virtual.</span>
