@@ -5,7 +5,7 @@ export function About() {
   return (
     <div id="about" className="lg:h-fit bg-background-dark">
       <div className="w-full max-w-7xl px-4 lg:px-0 mx-auto flex flex-wrap items-center py-20 gap-10">
-        <div className="hidden w-full lg:w-[300px] max-lg:flex flex-col items-end relative" data-aos="zoom-in" data-aos-delay="100">
+        {/* <div className="hidden w-full lg:w-[300px] max-lg:flex flex-col items-end relative">
           <div className="h-[360px] w-full relative overflow-hidden">
             <Image src={'/images/escritorio_02.jpg'} alt="" sizes="100%" fill />
           </div>
@@ -13,7 +13,7 @@ export function About() {
             <span className="block mt-4 text-[80px] leading-[100%] font-semibold mb-2">+ de 5</span>
             <span className="block mb-6">anos de experiência</span>
           </div>
-        </div>
+        </div> */}
         <div className="hidden lg:flex h-[300px] flex-1 relative items-center justify-center">
           <div className="w-[200px] h-[300px] absolute floating-element left-10 top-10" style={{animationDelay: '500ms'}}>
             <Image src="/projetos/vio/05.png" alt="" fill />

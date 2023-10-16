@@ -16,8 +16,12 @@ export function BannerVideo() {
                 {show &&
                     <div className="fixed top-0 left-0 right-0 bottom-0 bg-black/80 flex items-center justify-center z-[9999]">
                         <div className="absolute top-0 left-0 w-full h-full" onMouseDown={() => setShow(false)}></div>
-                        <div className="absolute">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ICg_xqBBN2g?si=ezE-el0Xw1va0M4g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                        <div className="absolute p-4">
+                            <iframe style={{
+                                width: 560,
+                                height: 315,
+                                maxWidth: '100%'
+                            }} width="560" height="315" src="https://www.youtube.com/embed/ICg_xqBBN2g?si=ezE-el0Xw1va0M4g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
                     </div>
                 }
