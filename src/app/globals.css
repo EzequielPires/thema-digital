@@ -24,15 +24,13 @@
 }
 
 .title {
-  font-family: 'Beatrice', sans-serif !important;
-  font-weight: bold;
+  /* font-family: 'Beatrice', sans-serif !important; */
+  font-weight: 600;
 }
 
 @media (max-width: 720px) {
-  .swiper-banner-home img {
-    height: unset !important;
-    width: 100% !important;
-    position: relative !important;
+  .swiper-banner-home {
+    height: 80vh !important;;
   }
 }
 
@@ -102,6 +100,13 @@ img {
   display: flex !important;
   justify-content: center;
   align-items: center;
+}
+
+#swiper_property {
+  padding-bottom: 24px;
+}
+#swiper_property .swiper-pagination {
+  bottom: 0 !important;
 }
 
 .swiper-pagination-bullet-active {

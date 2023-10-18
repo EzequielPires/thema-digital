@@ -157,9 +157,6 @@ export function HeaderSecondary() {
                                 <li>
                                     <Link onClick={() => setShow(false)} href={'/contato'} className={`text-5xl link-aside ${pathname === '/contato' ? 'text-white' : 'text-white/70'} hover:text-white transition-colors`}>Contato</Link>
                                 </li>
-                                <li>
-                                    <Link onClick={() => setShow(false)} href={'/blog'} className={`text-5xl link-aside ${pathname === '/blog' ? 'text-white' : 'text-white/70'} hover:text-white transition-colors`}>Blog</Link>
-                                </li>
                             </ul>
                             <ul className="flex gap-6 mb-4">
                                 <Link href={'/'}>

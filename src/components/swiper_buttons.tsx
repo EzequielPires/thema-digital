@@ -1,8 +1,6 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { useSwiper } from "swiper/react";
 
-export function SwiperButtons() {
-    const swiper = useSwiper();
+export function SwiperButtons({swiper}) {
     return (
         <>
             <button className="slick-prev" onClick={() => swiper.slidePrev()}>

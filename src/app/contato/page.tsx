@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {FaWhatsapp} from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Page() {
     return (
@@ -37,7 +37,7 @@ export default function Page() {
                         <button className="h-12 px-20 bg-green-800 hover:bg-green-600 transition-colors font-semibold mt-8 flex items-center justify-center gap-3">
                             <FaWhatsapp size={24} />
                             Whatsapp
-                            </button>
+                        </button>
                     </div>
                 </div>
             </section>

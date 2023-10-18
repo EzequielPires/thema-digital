@@ -45,7 +45,7 @@ export function Clients() {
           </div>
           <div className="h-32 lg:h-52 flex items-center justify-center group border-white/10">
             <Link href={'/'} className="flex">
-              <Image src={'/brands/logo_06.svg'} alt="" width={100} height={40} className="transition-all"  />
+              <Image src={'/brands/logo_08.svg'} alt="" width={100} height={40} className="transition-all"  />
             </Link>
           </div>
         </div>
