@@ -20,6 +20,7 @@ const config: Config = {
         '8xl': '64px'
       },
       backgroundImage: {
+        'card-linear': 'linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent)',
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

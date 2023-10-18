@@ -53,7 +53,7 @@ export function Services() {
                     </div>
                 </div>
             </div>
-            <div className="lg:h-[630px] bg-background-dark pb-20 pt-4 lg:py-20 flex flex-col justify-center relative overflow-hidden">
+            {/* <div className="lg:h-[630px] bg-background-dark pb-20 pt-4 lg:py-20 flex flex-col justify-center relative overflow-hidden">
                 <div className="relative lg:absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center gap-10">
                     <div className="flex items-center gap-10 w-full max-w-7xl px-4 lg:px-0 flex-wrap">
                         <div className="h-[400px] lg:h-[450px] w-[400px] relative before:absolute 
@@ -71,7 +71,7 @@ export function Services() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

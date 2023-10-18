@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import Link from "next/link";
 import { ArrowDownCircle, ArrowLeft, ArrowRight, MoveRight } from 'lucide-react';
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper";
 import { SwiperButtons } from "./swiper_buttons";
 
 export function BannerHome() {
@@ -45,7 +45,7 @@ export function BannerHome() {
                         <Link href={'/portfolio/projeto-01'} className="absolute z-50 text-sm font-medium flex items-center gap-2 text-white/50 hover:text-white transition-colors"><MoveRight />Ver projeto</Link>
                     </div>
                 </SwiperSlide>
-                <SwiperButtons />
+                {/* <SwiperButtons /> */}
             </Swiper>
             <a href="#about" className="flex items-center justify-center absolute z-20 bottom-4 text-white/50 hover:text-white transition-colors" onClick={handleClick}>
                 <ArrowDownCircle size={32}/>
